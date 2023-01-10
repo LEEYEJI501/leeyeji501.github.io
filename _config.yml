@@ -19,7 +19,7 @@ cusdis:
   app_id: #your cusdis app_id
 
 user:
-  name: Catbook
+  name: LEEYEJI
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
   job: a category-centric theme
