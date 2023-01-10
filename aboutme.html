@@ -4,16 +4,16 @@ layout: page
 
 <section class="aboutme">
     <div class="post_content">
-        <div id="title">
+        <div class="title">
             <h1>
             웹 프로그래머 이예지입니다. 🖥
             </h1>
         </div>
-        <div id="skill">
+        <div class="skill">
             <h2>
                 활용스킬 ⚒️
             </h2>
-            <div id="skill-list">
+            <div class="skill-list">
                 <ul>FRONT-END
                     <li>Javascript</li>
                     <li>HTML</li>
@@ -34,21 +34,19 @@ layout: page
 </section>
 
 <style>
-    .skill-list{
-        float: left;
-    }
-    ul{
+    .skill-list > ul{
+        list-style: none;
         margin: 0;
         padding: 0;
-        width: 100px;
+        width: 300px;
         font-size: 16px;
         font-weight: bold;
+        
     }
-    li {
-        list-style-type: none;
+    .skill-list > li {
         font-size: 14px;
         font-weight: normal;
-        display: inline-block;
+        float: left;
     }
 
 </style>
