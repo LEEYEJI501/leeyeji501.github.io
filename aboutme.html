@@ -14,18 +14,31 @@ layout: page
                 활용스킬 ⚒️
             </h2>
             <div class="skill-list">
-                <ul>FRONT-END
-                    <li>Javascript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Vue.js</li>
-                </ul>
-                <ul>BACK-END
-                    <li>Javascript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Vue.js</li>
-                </ul>
+                <table>
+                    <th>Front-end</th>
+                    <tr>
+                        <td>JS</td>
+                        <td>Vue</td>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                    </tr>
+                </table>
+                <table>
+                    <th>Back-end</th>
+                    <tr>
+                        <td>Java</td>
+                        <td>Spring</td>
+                    </tr>
+                </table>
+                <table>
+                    <th>Tools</th>
+                    <tr>
+                        <td>Github</td>
+                        <td>Vs code</td>
+                        <td>Eclipse</td>
+                        <td>Android Studio</td>
+                    </tr>
+                </table>
             </div>
             
         </div>
@@ -33,20 +46,18 @@ layout: page
     </div>
 </section>
 
-<style>
-    .skill-list > ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        width: 300px;
-        font-size: 16px;
-        font-weight: bold;
-        
+<style scoped>
+    table{
+        text-align: left;
+        margin-bottom: 15px;
     }
-    .skill-list > li {
-        font-size: 14px;
-        font-weight: normal;
-        float: left;
+    tr{
+        height: 20px;
+        font-size: 15px;
+    }
+    td{
+       width: 100px; 
+       font-size: 13px;
     }
 
 </style>
