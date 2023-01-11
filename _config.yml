@@ -1,4 +1,4 @@
-title: Leeyeji Portfolio #Your awesome title
+title: Leeyeji Dev Blog #Your awesome title
 email: yeaji0024@gamil.com #youremail@domain.com
 description: > # this means to ignore newlines until "baseurl"
   Write an awesome description for your new site here. You can edit this
@@ -46,3 +46,4 @@ show_drafts: null
 limit_posts: 0
 future: true
 unpublished: false
+published: true
