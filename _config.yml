@@ -46,4 +46,3 @@ show_drafts: null
 limit_posts: 0
 future: true
 unpublished: false
-published: true
